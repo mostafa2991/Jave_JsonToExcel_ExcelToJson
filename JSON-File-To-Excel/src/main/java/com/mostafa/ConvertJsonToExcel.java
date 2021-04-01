@@ -20,12 +20,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-
-/**
- * 
- * @author Ravishankar.kumar
- *
- */
 public class ConvertJsonToExcel {
 	 
 	public static JSONArray readJsonFile2Objects(File pathFile) {
