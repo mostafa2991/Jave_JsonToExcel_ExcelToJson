@@ -47,7 +47,24 @@
     <artifactId>json-simple</artifactId>
     <version>1.1.1</version>
 </dependency>
-    
+      <!-- added to send post request -->
+    <dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.4.10</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.6</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.mypurecloud/platform-client-v2 -->
+<dependency>
+    <groupId>com.mypurecloud</groupId>
+    <artifactId>platform-client-v2</artifactId>
+    <version>63.0.0</version>
+</dependency>
+<!-- untill here -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
